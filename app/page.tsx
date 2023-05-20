@@ -76,9 +76,9 @@ export default function Home() {
       </div>
 
       <div className="grid md:grid-cols-4 gap-4">
-        {solarJson.map((e) => {
+        {solarJson.map((e,id) => {
           return (
-            <div className="mb-32 grid text-center lg:mb-0  lg:text-left">
+            <div key={id} className="mb-32 grid text-center lg:mb-0  lg:text-left">
               <div className="wrapper bg-transparent antialiased text-gray-900">
                 <div>
                   <Image
