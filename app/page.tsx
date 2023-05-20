@@ -121,10 +121,10 @@ export default function Home() {
           );
         })}
       </div>
-      <center className="mb-10">
+      <center className="mb-10 mt-5 text-xl">
           {/* <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30"> */}
           <span> Deal in Bhopal, Vidisha & Raisen </span>
-          <span onClick={initiateCall}>&nbsp;Contact - +91 8707484110</span>
+          <span className="cursor-pointer" onClick={initiateCall}>&nbsp;Contact - +91 8707484110</span>
           {/* </p> */}
         </center>
       <i className="fa fa-whatsapp my-float"></i>
